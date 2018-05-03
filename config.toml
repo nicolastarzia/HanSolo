@@ -8,7 +8,7 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 disqusShortname = "nicolastarzia"
-googleAnalytics = "XXX"
+googleAnalytics = "UA-42627965-1"
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
@@ -48,7 +48,7 @@ googleAnalytics = "XXX"
   twitter = "nicolastarzia"
   reddit = "nicolastarzia"
   linkedin = "nicolastarzia"
-  stackoverflow = "users/XXXXXXX/username"
+  stackoverflow = "users/6998507/username"
   instagram = "nicolastarzia"
   youtube = "user/nicolastarzia" # or channel/channelname
   telegram = "nicolastarzia"

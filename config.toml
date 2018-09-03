@@ -9,6 +9,7 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 disqusShortname = "nicolastarzia"
 googleAnalytics = "UA-42627965-1"
+enableEmoji = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page

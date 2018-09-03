@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="br">
   <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +8,10 @@
   <title>Nícolas Tarzia</title>
   <meta property="og:title" content="Nícolas Tarzia" />
   <meta name="twitter:title" content="Nícolas Tarzia" />
-  <meta name="description" content=" TESTE ">
-  <meta property="og:description" content=" TESTE ">
-  <meta name="twitter:description" content=" TESTE ">
   <meta name="author" content="Nicolas Tarzia"/>
   <link href='https://nicolastarzia.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="https://nicolastarzia.com/img/avatar-icon.png" />
-  <meta name="twitter:image" content="https://nicolastarzia.com/img/avatar-icon.png" />
+  <meta property="og:image" content="https://nicolastarzia.com/img/avatar.jpeg" />
+  <meta name="twitter:image" content="https://nicolastarzia.com/img/avatar.jpeg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@nicolastarzia" />
   <meta name="twitter:creator" content="@nicolastarzia" />
@@ -22,7 +19,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Nícolas Tarzia" />
 
-  <meta name="generator" content="Hugo 0.40" />
+  <meta name="generator" content="Hugo 0.47.1" />
   <link rel="canonical" href="https://nicolastarzia.com/" />
   <link rel="alternate" href="https://nicolastarzia.com/index.xml" type="application/rss+xml" title="Nícolas Tarzia">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
@@ -83,12 +80,16 @@
     </div>
 </div>
 
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'XXX', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-42627965-1', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 </head>
 
@@ -97,7 +98,7 @@ ga('send', 'pageview');
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only"></span>
+        <span class="sr-only">Ver navegação</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -137,7 +138,7 @@ ga('send', 'pageview');
       <div class="avatar-img-border">
         
           <a title="Nícolas Tarzia" href="https://nicolastarzia.com">
-            <img class="avatar-img" src="https://nicolastarzia.com/img/avatar-icon.png" alt="Nícolas Tarzia" />
+            <img class="avatar-img" src="https://nicolastarzia.com/img/avatar.jpeg" alt="Nícolas Tarzia" />
           </a>
         
       </div>
@@ -187,13 +188,6 @@ ga('send', 'pageview');
   <div role="main" class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-          <div class="well">
-            
-
-<h2 id="teste">TESTE</h2>
-
-          </div>
         
 
         <div class="posts-list">
@@ -285,7 +279,7 @@ ga('send', 'pageview');
                 </a>
               </li>
               <li>
-                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
+                <a href="https://stackoverflow.com/users/6998507/username" title="StackOverflow">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
@@ -346,7 +340,7 @@ ga('send', 'pageview');
         </p>
         
         <p class="credits theme-by text-muted">
-          
+          <a href="http://gohugo.io">Hugo v0.47.1</a> powered &nbsp;&bull;&nbsp; Tema por <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adaptado para <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
           
         </p>
       </div>

@@ -1,70 +1,48 @@
-baseurl = "https://nicolastarzia.com"
-DefaultContentLanguage = "br"
+## Basic Configuration
+baseurl = "https://nicolastarzia.com/"
+languageCode = "pt"
+
 title = "Nícolas Tarzia"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
 disqusShortname = "nicolastarzia"
 googleAnalytics = "UA-42627965-1"
+enableRobotsTXT = true
+postNavigation = true
+relatedPosts = true
 enableEmoji = true
 
-[Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Construindo soluções!"
-  logo = "img/avatar.jpeg"
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
-  readingTime = true
-  useHLJS = true
-  socialShare = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+## Site Settings
+[params]
+    author = "Nícolas Tarzia"
+    title = "Desenvolvedor"
+    description = "desenvolvimento, arquitetura de software e algumas outras coisas"
+    authorimage = "/img/avatar.jpeg"
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "center top"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+## Social Accounts
+[params.social]
+    github = "nicolastarzia"
+    instagram = "nicolastarzia"
+    linkedin = "nicolastarzia"
+    twitter = "nicolastarzia"
+    facebook = "nicolastarzia"
+    stackoverflow = "nicolastarzia"
+    telegram = "nicolastarzia"
+    email = "nicolastarzia@gmail.com"
 
-[Author]
-  name = "Nicolas Tarzia"
-  website = "nicolastarzia.com"
-  email = "contato@nicolastarzia.com"
-  facebook = "nicolastarzia"
-  googleplus = "+nicolastarzia" # or xxxxxxxxxxxxxxxxxxxxx
-  github = "nicolastarzia"
-  gitlab = "nicolastarzia"
-  bitbucket = "nicolastarzia"
-  twitter = "nicolastarzia"
-  reddit = "nicolastarzia"
-  linkedin = "nicolastarzia"
-  stackoverflow = "users/6998507/username"
-  instagram = "nicolastarzia"
-  youtube = "user/nicolastarzia" # or channel/channelname
-  telegram = "nicolastarzia"
-
+## Main Menu
+#[[menu.main]]
+#    name = "Posts"
+#    weight = 100
+#    identifier = "posts"
+#    url = "/posts/"
 [[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
-
-[[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+    name = "Sobre"
+    identifier = "about"
+    weight = 300
+    url = "/about/"

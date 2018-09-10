@@ -9,5 +9,17 @@ weight: 10
 draft: true
 ---
 
+Who are you?
 
-TESTE
+Why are you blogging?
+
+What are you going to be blogging about?
+
+Who are you writing for?
+
+How can they get involved?
+
+Clearly state your blogging goals?
+
+
+ref: https://www.shoutmeloud.com/write-first-blog-post.html

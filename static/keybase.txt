@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/nicolastarzia
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nicolastarzia.com
+  * I am nicolastarzia (https://keybase.io/nicolastarzia) on keybase.
+  * I have a public key ASA998UNK08oiShdbYeQn4jDRoTrBec7YD3iZ0MQmgBM9Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203df7c50d2b4f2889285d6d87909f88c34684eb05e73b603de26743109a004cf40a",
+      "host": "keybase.io",
+      "kid": "01203df7c50d2b4f2889285d6d87909f88c34684eb05e73b603de26743109a004cf40a",
+      "uid": "d10abc191f0c8e2b3b612e6600731e19",
+      "username": "nicolastarzia"
+    },
+    "merkle_root": {
+      "ctime": 1537793339,
+      "hash": "3d71d5470cc6d1b93143c03a79588789b3cb2dea1b4e543795d2b015a16853073096d6e4d95ec4cb350fd380dba4cfdaf6611c5674b8b87bd63212985e00b9c4",
+      "hash_meta": "f8a8efd5879984430ced8951baab46a13af31e823405eba5116098bbc8b87581",
+      "seqno": 3676780
+    },
+    "service": {
+      "entropy": "vUqVeuyFpWOhGJRCALFtmzSa",
+      "hostname": "nicolastarzia.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.2"
+  },
+  "ctime": 1537793346,
+  "expire_in": 504576000,
+  "prev": "12ca2de3a9178c9d30ad0a9b33bc3a25501c09dcfac5708dd11d19bce4e08b68",
+  "seqno": 36,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgPffFDStPKIkoXW2HkJ+Iw0aE6wXnO2A94mdDEJoATPQKp3BheWxvYWTESpcCJMQgEsot46kXjJ0wrQqbM7w6JVAcCdz6xXCN0R0ZvOTgi2jEICXiC5usdZK+0yxpxES5Rc+MDwGyagUCVpaote+sPYytAgHCo3NpZ8RAKOzbhrVhFDDHUrUy9IpZ+fzRG5atZV6fDWoCOSsP6w2fYy8rZe+28KwzC6v3fL5e4uU6cV/NyKa7sxLNVLkDCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINuOC1gAAXgnKwrAHkth9tjKXssEex0BNJQTTcXawANdo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nicolastarzia
+
+==================================================================

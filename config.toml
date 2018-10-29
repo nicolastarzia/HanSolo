@@ -2,12 +2,12 @@
 baseurl = "https://nicolastarzia.com/"
 languageCode = "pt"
 
-title = "Nícolas Tarzia"
+title = "Nicolas Tarzia"
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
-disqusShortname = "nicolastarzia"
-googleAnalytics = "UA-42627965-1"
+#disqusShortname = "nicolastarzia"
+#googleAnalytics = "UA-42627965-1"
 enableRobotsTXT = true
 postNavigation = true
 relatedPosts = true

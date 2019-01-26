@@ -1,0 +1,13 @@
+name = "Hansolo"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+description = ""
+homepage = "https://nicolastarzia.com/"
+tags = []
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Nícolas Tarzia"
+  homepage = "https://nicolastarzia.com"
+

@@ -66,6 +66,9 @@ a:hover,
 a:focus{
   background-color: #204E5F !important;
 }
+h1{
+  color: #FF8984;
+}
 section{
   max-width: 700px;
   margin: 0 auto;

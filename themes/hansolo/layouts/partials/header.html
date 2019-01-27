@@ -2,9 +2,11 @@
  <div>
    <a href="/"><h1>Nícolas Tarzia</h1></a>
  </div> 
-</header>
  <nav>
+   <ul>
    {{ range .Site.Menus.main }}
-    <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+   <li><a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a></li>
    {{ end }}
+   </ul>
  </nav>
+</header>

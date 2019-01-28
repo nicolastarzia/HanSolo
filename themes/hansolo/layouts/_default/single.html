@@ -1,27 +1,25 @@
 {{ define "main" }}
-<article>
-  <header>
-    <h1>{{ .Title }}</h1>
-    {{ with .Params.subtitle }}
-    <span class="post__subtitle">
-      {{.}}
-    </span>
-    {{ end }}
-  </header>
-  {{ $tableOfContents := .TableOfContents }}
-  {{ with .Site.Params.toc }}
-  <div class="toc-wrapper">
-    <input type="checkbox" id="tocToggle">
-    <label for="tocToggle">Table of Content</label>
-    {{ if eq . "hugo" }}
-        {{ $tableOfContents }}
-    {{ else if eq . "tocbot"}}
-      <div class="toc" id="TableOfContents"></div>
-    {{ end }}
+<section id="main">
+  <h1>{{ .Title }}</h1>
+  <h4>Postado em {{ .Date.Format "Mon Jan 2, 2006" }}</h4>
+  <h4>Este texto tem {{ .WordCount }} palavras e o tempo médio de leitura é 
+    {{ .ReadingTime }} minuto(s) </h4>
+  <div>
+    <article id="content">
+       {{ .Content }}
+    </article>
   </div>
-  {{ end }}
-  <div class="post">
-    {{ .Content }}
-  </div>
-</article>
+</section>
+<aside id="meta">
+    <div>
+    {{ with .Params.tags }}
+    <h5>Tags</h5>
+    <ul id="tags">
+      {{ range . }}
+        <li> <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    </div>
+</aside>
 {{ end }}

@@ -15,6 +15,7 @@ body > header{
 }
 body > header h1{
   margin: 0;
+  letter-spacing: 0.25rem;
 }
 header div, header nav{
   flex: 0 1 100%;
@@ -103,4 +104,34 @@ article  h1{
   border: 1px solid #005F97;
   margin: 10px;
   padding: 10px;
+}
+.next{
+  float:right;
+}
+#tags{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+#tags > li{
+  float:left;
+}
+#tags > li a{
+  text-align:center;
+  padding: 0px 16px;
+  text-decoration:none;
+}
+#meta div{
+  display:block;
+  height: 50px;
+}
+#content h4{
+  font-weight: 100;
+  font-size: 0.75rem;
+  margin:0;
+}
+#content h1{
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
+  margin: 0 0;
 }

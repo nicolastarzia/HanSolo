@@ -1,0 +1,6 @@
+title: Nícolas Tarzia
+email: contato@nicolastarzia.com
+markdown: kramdown
+theme: dev-blog-theme
+plugins:
+  - jekyll-feed

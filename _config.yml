@@ -1,0 +1,64 @@
+title: Nícolas Tarzia
+email: contato@nicolastarzia.com
+markdown: kramdown
+theme: dev-blog-theme
+
+
+############################################################
+# Allow comments using Azure Functions
+emptyArray: [] #
+comments:
+  receiver: https://nicolascommenter.azurewebsites.net/api/PostComment
+############################################################
+
+############################################################
+# Site configuration for the Jekyll 3 Pagination Gem
+# The values here represent the defaults if nothing is set
+pagination:
+  enabled: true
+  per_page: 8
+  permalink: '/:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+ # extension: htm
+ # indexpage: 'default'
+  trail: 
+    before: 2
+    after: 2
+############################################################
+
+
+authors:
+  nicolastarzia:
+    name: Nicolas Tarzia
+    email: nicolastarzia@gmail.com
+    url: https://nicolastarzia.com
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+      author: nicolastarzia
+      commenting: open
+  -
+    scope:
+      path: '_posts'
+      type: posts
+    values:
+      layout: post
+      author: nicolastarzia
+      commenting: open
+
+devblog:
+  date_format: "%b %-d, %Y"
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate-v2
+ - jekyll-sitemap

@@ -1,6 +1,44 @@
 title: Nícolas Tarzia
 email: contato@nicolastarzia.com
+emptyArray: []
 markdown: kramdown
 theme: dev-blog-theme
 plugins:
   - jekyll-feed
+
+
+
+comments:
+  receiver: http://ttttttttt.com/ ##### Azure Function
+paginate: 5
+authors:
+  nicolastarzia:
+    name: Nicolas Tarzia
+    email: nicolastarzia@gmail.com
+    url: https://nicolastarzia.com
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+      author: nicolastarzia
+      commenting: open
+  -
+    scope:
+      path: '_posts'
+      type: posts
+    values:
+      layout: post
+      author: nicolastarzia
+      commenting: open
+
+devblog:
+  date_format: "%b %-d, %Y"
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate

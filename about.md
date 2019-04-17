@@ -3,7 +3,7 @@ layout: page
 title: Sobre mim
 permalink: /about/
 ---
-Me chamo Nícolas Cordeiro Tarzia, e mantenho este blog para compartilhar o conhecimento que eu estou adquirindo, ou então reforçar algo que já tenho conhecimento, acredito que escrever e ensinar é uma das principais formas que eu encontrei para reforçar o meu estudo.
+Me chamo Nícolas Cordeiro Tarzia, e mantenho este blog como uma forma de estudo e compartilhar os meus conhecimentos.
 
 Sintam-se a vontade de entrar em contato comigo.
 
@@ -13,6 +13,7 @@ Twitter: [@nicolastarzia][2]
 Facebook: [/nicolastarzia][3]  
 LinkedIn: [/in/nicolastarzia][4]  
 StackOverflow: [@nicolastarzia][5]  
+GitHub: [@nicolastarzia][6]
 
 
 [1]: mailto:nicolastarzia@gmail.com
@@ -20,3 +21,4 @@ StackOverflow: [@nicolastarzia][5]
 [3]: https://www.facebook.com/nicolastarzia
 [4]: https://www.linkedin.com/in/nicolastarzia/
 [5]: https://pt.stackoverflow.com/
+[6]: https://github.com/nicolastarzia/

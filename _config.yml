@@ -8,7 +8,7 @@ theme: dev-blog-theme
 # Allow comments using Azure Functions
 emptyArray: [] #
 comments:
-  receiver: https://nicolascommenter.azurewebsites.net/api/PostComment
+  receiver: https://c0m3nt4r10.azurewebsites.net/api/PostComment
 ############################################################
 
 ############################################################

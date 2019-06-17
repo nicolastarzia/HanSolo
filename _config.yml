@@ -10,6 +10,7 @@ emptyArray: [] #
 comments:
   receiver: https://c0m3nt4r10.azurewebsites.net/api/PostComment
 ############################################################
+azure_insights: e8216e39-8719-46cf-beba-d05a71693e6e
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem

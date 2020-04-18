@@ -1,0 +1,56 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Nícolas Tarzia"
+theme = "hugo-vitae"
+paginate = 5
+
+copyright = "© Copyright | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+
+pygmentsstyle = "colorful"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+
+[taxonomies]
+	tag = "tags"
+	series = "series"
+
+[params]
+	subtitle = ""
+
+	# Optional 80x80 avatar image.
+	avatar = "/images/logo.png"
+
+
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+
+# Nav.
+[[menu.main]]
+name = "Principal"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Todos os posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Sobre"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/nicolastarzia"
+
+[[params.social]]
+name = "RSS"
+icon = "fas fa-rss"
+url = "/index.xml"

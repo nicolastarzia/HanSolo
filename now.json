@@ -8,6 +8,20 @@
             "src": "/(.*)",
             "status": 404,
             "dest": "/404.html"
+        },
+        {
+            "src": "/css/(.*)",
+            "headers": {
+                "cache-control": "s-maxage=604800"
+            },
+            "dest": "/css/$1"
+        },
+        {
+            "src": "/images/(.*)",
+            "headers": {
+                "cache-control": "s-maxage=604800"
+            },
+            "dest": "/images/$1"
         }
     ]
 }

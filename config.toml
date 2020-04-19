@@ -19,7 +19,7 @@ pygmentscodefencesguesssyntax = true
 	subtitle = ""
 
 	# Optional 80x80 avatar image.
-	avatar = "/images/logo.png"
+	avatar = "/images/logo.jpg"
 
 
 	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
@@ -54,3 +54,26 @@ url = "https://github.com/nicolastarzia"
 name = "RSS"
 icon = "fas fa-rss"
 url = "/index.xml"
+
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false
